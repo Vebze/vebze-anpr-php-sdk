@@ -1,0 +1,22 @@
+{
+    "name": "vebze/vebze",
+    "description": "Official Vebze API SDK for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vebze Team",
+            "email": "support@vebze.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vebze\\": "src/"
+        }
+    }
+}
