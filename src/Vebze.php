@@ -30,7 +30,7 @@ class VebzeError extends Exception
 
 class Vebze
 {
-    const DEFAULT_BASE_URL = "https://api.yourdomain.com/api/v1";
+    const DEFAULT_BASE_URL = "https://api.vebze.com/api/v1";
 
     private $apiKey;
     private $baseUrl;
